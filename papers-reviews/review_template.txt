@@ -1,0 +1,33 @@
+Paper Title: 
+
+Overall merit:
+1. Serious problems. I will fight for this paper to be rejected.
+2. Weak paper. This paper should be rejected but I will not fight strongly against it.
+3. OK paper. I hope we can find better papers to accept.
+4. Good paper. I can accept this paper but will not champion it.
+5. Excellent paper. I will champion for acceptance.
+
+Reviewer expertise:
+1. No familiarity
+2. Some familiarity
+3. Knowledgeable
+4. Expert
+
+Novelty:
+1. Published before
+2. Done before (not necessarily published)
+3. Incremental improvement
+4. New contribution
+5. Surprisingly new contribution
+
+Paper summary:
+(A *brief* summary of the paper, should be a paragraph at most.)
+
+Paper Strengths:
+(What are the paper’s strengths? 2-3 short sentences or bullet points about the strengths of this paper.)
+
+Paper Weaknesses:
+(What are the paper’s weaknesses? 2-3 short sentences or bullet points about the shortcomings of this paper. Please avoid nit picking and focus on large issues.)
+
+Comments for author:
+
