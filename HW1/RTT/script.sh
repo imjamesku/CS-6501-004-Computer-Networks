@@ -3,13 +3,16 @@ TTL=255
 TIME=10
 COUNT=5
 # France
-ping bouygues.iperf.fr -t $TTL -c $COUNT > franceRTT.txt
-iperf3 -c bouygues.iperf.fr -t $TIME -p 5200 > franceBand.txt
+echo "France"
+ping bouygues.testdebit.info -t $TTL -c $COUNT > franceRTT.txt
+iperf3 -c bouygues.testdebit.info -t $TIME -p 5204 > franceBand.txt
 
-# Kazakhstan
-ping iperf.it-north.net -t $TTL -c $COUNT > kazakhstanRTT.txt
-iperf3 -c iperf.it-north.net -t $TIME -p 5204 > kazakhstanBand.txt
+# Moscow
+echo "Moscow"
+ping speedtest.hostkey.ru -t $TTL -c $COUNT > MoscowRTT.txt
+iperf3 -c speedtest.hostkey.ru -t $TIME -p 5201 > MoscowBand.txt
 
 # US California
+echo "california"
 ping iperf.he.net -t $TTL -c $COUNT > us-caRTT.txt
-iperf3 -c iperf.he.net -t $TIME -p 5204 > us-caBand.txt
+iperf3 -c iperf.he.net -t $TIME -p 5201 > us-caBand.txt
